@@ -8,6 +8,10 @@ gem 'jbuilder', '~> 2.0'
 gem 'sdoc', '~> 0.4.0', group: :doc
 gem 'faker'
 gem 'listen'
+gem 'bootsnap'
+gem 'rb-readline'
+gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
+
 
 group :development, :test do
   gem 'pry'
